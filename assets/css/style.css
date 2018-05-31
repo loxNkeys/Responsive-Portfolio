@@ -1,0 +1,259 @@
+/* 'About' */
+body {
+    font: 14/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url("assets/images/Backgrounds/low_contrast_linen/low_contrast_linen/low_contrast_linen.png");
+}
+
+.container {
+    width: 960px;
+    overflow: hidden;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+}
+
+header {
+    background: #ffffff;    
+    color: #777777;
+    padding-top: 0px;
+    min-height: 70px;
+    border-bottom: #cccccc 3px solid;
+}
+
+header a {
+    color: #777777;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header #myName {
+    width: 185px;
+    height: 103px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 12px;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+#about, #portfolio {
+    border-right: #cccccc 3px solid;
+    height: 60px;
+}
+
+header li {
+    float: right;
+    display: inline;
+    padding: 30px 20px 0 20px;
+}
+
+header h1 {
+        float: left;
+        margin-bottom: 0;
+        margin-top: 0;
+        margin: 0;
+}
+
+header .current a {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #E89F0C
+}
+
+/* Showcase */
+
+#showcase {
+    margin: auto;
+    width: 960px;
+    border: #cccccc 3px solid;
+    padding: 10px;
+    margin-top: 50px;
+    font: 14/1.5 Arial, Helvetica, sans-serif;
+    color: #777777;
+    overflow: hidden;
+    background: #ffffff;
+    position: relative;
+}
+
+#pic img {
+    height: 148px;
+    width: 150px;
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+.showcaseHeader {
+    border-bottom: #cccccc 3px solid;
+    color: #4aaaa5;
+} 
+
+.showcaseHeader h2 {
+    font-size: 30px;
+}
+
+#paragraph1 {
+    clear: both;
+    float: right;
+    position: absolute;
+    top: 82px;
+    right: 0;
+    width: 810px;
+    margin-left: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+#paragraph2 {
+    clear: both;
+    position: relative;
+}
+
+#paragraph3 {
+    clear: both;
+    position: relative;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    background-color: #777777;
+    color: #ffffff;
+    text-align: center;
+}   
+
+/* 'Portfolio' */
+
+#gallery {
+    margin: auto;
+    width: 960px;
+    height: 800px;
+    border: #cccccc 3px solid;
+    padding: 10px;
+    margin-top: 50px;
+    font: 14/1.5 Arial, Helvetica, sans-serif;
+    color: #777777;
+    overflow: hidden;
+    background: #ffffff;
+    position: relative;
+}
+
+section h2 {
+    color: #4aaaa5;
+    font-size: 30px;
+    border-bottom: #cccccc 3px solid; 
+}
+
+.games img{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.games .gameBanner {
+    position: fixed;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 300px;
+    text-align: center;
+    height: 30px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+#hangman {
+    float: left;
+}
+
+#goMoto {
+    position: absolute;
+    right: 620px;
+}
+
+#shore {
+    position: absolute;
+    top: 320px;
+}
+
+#sunset {
+    position: absolute;
+    top: 320px;
+    right: 620px;
+}
+
+#turntable {
+    position: absolute;
+    top: 560px;
+}
+
+#contactForm {
+    margin: auto;
+    width: 960px;
+    height: 800px;
+    border: #cccccc 3px solid;
+    padding: 10px;
+    margin-top: 50px;
+    font: 14/1.5 Arial, Helvetica, sans-serif;
+    color: #777777;
+    overflow: hidden;
+    background: #ffffff;
+    position: relative;
+}
+
+#contactFormName {
+    font-size: 20px;
+}
+
+#contactFormEmail {
+    font-size: 20px;
+}
+
+#contactFormMessage {
+    font-size: 20px;
+}
+
+.bordered {
+    border: #cccccc 1px solid;
+    padding: 5px;
+}
+
+#messageBox {
+    height: 300px;
+    border: #cccccc 1px solid;
+}
+
+#submit {
+    width: 100px;
+    height: 80px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
